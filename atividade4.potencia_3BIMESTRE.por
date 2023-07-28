@@ -1,12 +1,17 @@
 programa
 {
 	inclua biblioteca Util
-	
-		
 
 	funcao inicio()
 	{
-		potencia()
+		inteiro base 
+		inteiro expoente
+		escreva("Informe o valor da base:\n")
+		leia(base)
+		escreva("Informe o valor do expoente:\n")
+		leia(expoente)
+		limpa()
+		potencia(base, expoente)
 	}
 	funcao potencia(inteiro base, inteiro expoente){
 		inteiro resultado = base
