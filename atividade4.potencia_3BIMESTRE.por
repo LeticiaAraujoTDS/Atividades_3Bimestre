@@ -4,14 +4,10 @@ programa
 
 	funcao inicio()
 	{
-		inteiro base 
-		inteiro expoente
-		escreva("Informe o valor da base:\n")
-		leia(base)
-		escreva("Informe o valor do expoente:\n")
-		leia(expoente)
+		inteiro x, y 
+		leia(x, y)
 		limpa()
-		potencia(base, expoente)
+		potencia(x, y)
 	}
 	funcao potencia(inteiro base, inteiro expoente){
 		inteiro resultado = base
