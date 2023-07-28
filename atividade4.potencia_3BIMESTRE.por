@@ -6,7 +6,7 @@ programa
 
 	funcao inicio()
 	{
-		potencia(4,3)
+		potencia()
 	}
 	funcao potencia(inteiro base, inteiro expoente){
 		inteiro resultado = base
