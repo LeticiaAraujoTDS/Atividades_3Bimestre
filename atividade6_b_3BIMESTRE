@@ -1,0 +1,23 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro termoA = 0
+		inteiro termoB = 1
+		inteiro termoC = 0 
+		inteiro cont = 2
+
+		escreva(termoA , " " , termoB , " ")
+		enquanto(cont<=6){
+				cont++ 
+				para(termoC = 0; termoC <= cont; termoC++){
+					termoC = termoA + termoB
+					termoA = termoB
+					termoB = termoC
+					escreva(termoC , " ")
+			}
+			
+			}	
+	}
+}
