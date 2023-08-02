@@ -17,10 +17,12 @@ programa
 		posicao++
 		se(lista[i] == "Jaspian"){
 			escreva("Jaspian está na posição ", i+1, ".\n")
+			pare
 			}
 		}//fim para
 		
-	}//fim função
+	}
+//fim função
 }
 /* $$$ Portugol Studio $$$ 
  * 
