@@ -8,7 +8,7 @@ programa
 		inteiro termoC 
 		inteiro n
 
-		escreva("Informe o n-simo termo: \n")
+		escreva("Informe o n-ésimo termo: \n")
 		leia(n)
 
 		escreva(termoA, " ", termoB, " ")
