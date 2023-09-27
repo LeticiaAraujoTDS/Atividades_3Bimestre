@@ -1,19 +1,27 @@
 programa
 {
-	
+	const 
+cadeia alfabeto[26] = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"}
 	funcao inicio()
 	{
-		real valor1
-		cadeia moeda1
-
-		escreva("Informe o valor:\n")
-		leia(valor1)
-		converteReal(valor1)
-		escreva("O valor retornado será de ",converteReal(valor1))
+	
+		
+		criptografar("", 20)
 	}
-	funcao real converteReal(real valor){
-		real moeda = 4.85
-		real cambio = valor/moeda
-		retorne cambio
+	funcao criptografar(cadeia texto, inteiro chave){
+
+		cadeia letra = "j"
+		
+		para(inteiro i=0; i < 26; i++){
+			se(letra == alfabeto[i]){
+				escreva("A letra ", letra, " está na posição ", i)
+				escreva(".\nA letra criptografada é ", alfabeto[i + chave], ".")
+				pare
+				}
+		     }
+		}
+	funcao descriptografar(){
+		
+		
 		}
 }
